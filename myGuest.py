@@ -10,7 +10,7 @@ dictOfGuests = {}
 myDB = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="1491625mel",
+    password="*****",
     database="Hotel"
 )
 
