@@ -1,0 +1,56 @@
+{
+    "emp_details": [
+        {
+            "name": "Vardan",
+            "surname": "Zakaryan",
+            "ID": "AL0258369",
+            "dob": "2001-10-01",
+            "address": "0589, Armenia, Yerevan, Yerevan, Margaryan, 18, 34",
+            "email": "vardan.zakaryan@gmail.com",
+            "phoneNumber": "37431121224",
+            "gender": "MALE",
+            "salary": "365000",
+            "workStartDate": "2014-10-01",
+            "position": "COOK_HELPER"
+        },
+        {
+            "name": "Aram",
+            "surname": "Ananyan",
+            "dob": "\"2001-10-01\"",
+            "ID": "AS0300400",
+            "address": "0125, Armenia, Ararat, Artashat, Vardananc, 15, None",
+            "email": "aram.ananyan@gmail.com",
+            "phoneNumber": "+37455202014",
+            "gender": "MALE",
+            "salary": 245000,
+            "workStartDate": "\"2020-02-01\"",
+            "position": "BELL_BOY"
+        },
+        {
+            "name": "Araz",
+            "surname": "Margaryan",
+            "dob": "\"1975-05-12\"",
+            "ID": "AK0300256",
+            "address": "00024, Armenia, Yerevan, Yerevan, Komitasi Ave, 27, None",
+            "email": "y5ttr7mggoi@temporary-mail.net",
+            "phoneNumber": "(374 10)519904",
+            "gender": "MALE",
+            "salary": 560000,
+            "workStartDate": "\"2010-05-01\"",
+            "position": "DOCTOR"
+        },
+        {
+            "name": "Hmayak",
+            "surname": "Badalyan",
+            "dob": "\"1969-12-01\"",
+            "ID": "AS0587985",
+            "address": "0079, Armenia, Yerevan, Yerevan, Leningradyan, 26, None",
+            "email": "iih3jsi361@temporary-mail.net",
+            "phoneNumber": "(374 10)519904",
+            "gender": "MALE",
+            "salary": 1160000,
+            "workStartDate": "\"2010-05-01\"",
+            "position": "MANAGER"
+        }
+    ]
+}

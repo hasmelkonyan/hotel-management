@@ -1,0 +1,124 @@
+{
+    "room_details": [
+        {
+            "room": "411",
+            "status": "VACANT_AND_READY",
+            "type": "KING",
+            "price": 85000
+        },
+        {
+            "room": "202",
+            "status": "VACANT_AND_READY",
+            "type": "TWIN",
+            "price": 40000
+        },
+        {
+            "room": "203",
+            "status": "VACANT_AND_READY",
+            "type": "KING",
+            "price": 85000
+        },
+        {
+            "room": "204",
+            "status": "VACANT_AND_READY",
+            "type": "SINGLE",
+            "price": 20000
+        },
+        {
+            "room": "205",
+            "status": "VACANT_AND_READY",
+            "type": "DOUBLE_DOUBLE",
+            "price": 60000
+        },
+        {
+            "room": "206",
+            "status": "VACANT_AND_READY",
+            "type": "QUEEN",
+            "price": 70000
+        },
+        {
+            "room": "207",
+            "status": "VACANT_AND_READY",
+            "type": "STUDIO",
+            "price": 40000
+        },
+        {
+            "room": "208",
+            "status": "VACANT_AND_READY",
+            "type": "TWIN",
+            "price": 40000
+        },
+        {
+            "room": "209",
+            "status": "VACANT_AND_READY",
+            "type": "QUEEN",
+            "price": 70000
+        },
+        {
+            "room": "210",
+            "status": "VACANT_AND_READY",
+            "type": "TRIPLE",
+            "price": 45000
+        },
+        {
+            "room": "301",
+            "status": "VACANT_AND_READY",
+            "type": "DOUBLE_DOUBLE",
+            "price": 60000
+        },
+        {
+            "room": "302",
+            "status": "VACANT_AND_READY",
+            "type": "DOUBLE_DOUBLE",
+            "price": 60000
+        },
+        {
+            "room": "303",
+            "status": "VACANT_AND_READY",
+            "type": "DOUBLE",
+            "price": 38000
+        },
+        {
+            "room": "304",
+            "status": "VACANT_AND_READY",
+            "type": "DOUBLE",
+            "price": 38000
+        },
+        {
+            "room": "305",
+            "status": "VACANT_AND_READY",
+            "type": "STUDIO",
+            "price": 40000
+        },
+        {
+            "room": "306",
+            "status": "VACANT_AND_READY",
+            "type": "SINGLE",
+            "price": 20000
+        },
+        {
+            "room": "307",
+            "status": "VACANT_AND_READY",
+            "type": "STUDIO",
+            "price": 40000
+        },
+        {
+            "room": "308",
+            "status": "VACANT_AND_READY",
+            "type": "TWIN",
+            "price": 40000
+        },
+        {
+            "room": "309",
+            "status": "VACANT_AND_READY",
+            "type": "TRIPLE",
+            "price": 45000
+        },
+        {
+            "room": "210",
+            "status": "VACANT_AND_READY",
+            "type": "TRIPLE",
+            "price": 45000
+        }
+    ]
+}
