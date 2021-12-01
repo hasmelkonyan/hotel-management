@@ -271,14 +271,14 @@ def __searchGuestByIdDB(id):
 
 
 def __searchGuestByNameDB(name, surname):
-    filter1 = re.compile(name)
-    filter2 = re.compile(surname)
+    filter1 = re.compile(name.lower())
+    filter2 = re.compile(surname.lower())
     myCursor = myDB.cursor()
     myCursor.execute("SELECT * FROM guest")
     result = myCursor.fetchall()
     guestId = None
     for each in result:
-        if filter1.match(each[1]) and filter2.match(each[2]):
+        if filter1.match(each[1].lower()) and filter2.match(each[2].lower()):
             guestId = each[0]
             print(f'\nFound guest:\nName: {each[1]} {each[2]}\nId: {each[0]}\nDate of birth: {each[3]}\n'
                   f'Email: {each[4]}\nPhone number: {each[5]}\nCheck in date{each[6]}\nCheck out date: {each[7]}\n'
@@ -302,13 +302,13 @@ def __searchEmployeeByIdDB(id):
 
 
 def __searchEmployeeByNameDB(name, surname):
-    filter1 = re.compile(name)
-    filter2 = re.compile(surname)
+    filter1 = re.compile(name.lower())
+    filter2 = re.compile(surname.lower())
     myCursor = myDB.cursor()
     myCursor.execute("SELECT * FROM employee")
     result = myCursor.fetchall()
     for each in result:
-        if filter1.match(each[1]) and filter2.match(each[2]):
+        if filter1.match(each[1].lower()) and filter2.match(each[2].lower()):
             print(f'\nFound employee:\nName: {each[1]} {each[2]}\nId: {each[0]}\nDate of birth: {each[3]}\n'
                   f'Email: {each[4]}\nPhone number: {each[5]}\nGender: {each[6]}\nSalary: {each[7]}\n'
                   f'Work start date: {each[8]}\nPosition: {each[9]}\nAddress: {each[10]}')
